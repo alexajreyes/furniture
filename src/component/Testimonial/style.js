@@ -20,8 +20,9 @@ export const ContainerImage = styled.div`
   }
 `
 export const ContentTestimonial = styled.div``
+
 export const Title = styled.h3`
-  @media (max-width: 360px) {
+  @media (max-width: 420px) {
     font-size: 32px;
   }
   font-size: 64px;

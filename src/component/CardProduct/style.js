@@ -4,6 +4,7 @@ export const ContainerCard = styled.div`
   margin-top: 16px;
   height: 305px;
   background: ${({ theme }) => theme.CardProduct};
+  position: relative;
 `
 export const Button = styled.button`
   border: none;
@@ -21,7 +22,6 @@ export const Button = styled.button`
 
 export const ContainerButtonAddCar = styled.div`
   width: 100%;
-  position: relative;
   display: flex;
   justify-content: center;
 `
